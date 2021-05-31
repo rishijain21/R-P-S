@@ -1,7 +1,7 @@
 let cacheName = 'R-P-S_cache';
 let filesToCache = [
   '/',
-  '/index.html',
+  'index.html',
   'style.css',
   '/js/main.js',
   'script.js',
