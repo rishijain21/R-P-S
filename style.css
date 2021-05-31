@@ -1,0 +1,33 @@
+body {
+  background-color: #121212;
+  margin: 40px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  border: 2px solid white;
+  box-shadow: 0px 10px 50px 45px rgba(209, 22, 209, 0.712);
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h2 {
+  color: white;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+.container img {
+  border-radius: 50px;
+}
+
+.flex-box-rps {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-around;
+}
+.flex-box-rps img:hover {
+  box-shadow: 0px 10px 50px rgba(209, 22, 209, 0.712);
+}
