@@ -5,6 +5,9 @@ let filesToCache = [
   'style.css',
   '/js/main.js',
   'script.js',
+  'sessiors.png',
+  'paper.jpg',
+  'Stone.png'
   'css/bootstrap.min.css'
 ];
 
