@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="/favicon.png" type="image/gif" sizes="16x16" />
+  <link rel="apple-touch-icon" href="images/hello-icon-152.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="white" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="R-P-S Game" />
+  <meta name="msapplication-TileImage" content="images/hello-icon-144.png" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <title>ROCK PAPER SCISSORS GAME</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Rock Paper Scissors Game</h2>
+    <div class="flex-box-rps" id="flex-box-rps-div">
+      <img id="rock" src="Stone.png" alt="" height="150px" width="150px" onclick="rpsGame(this)" />
+      <img id="paper" src="paper.jpg" alt="" height="150px" width="150px" onclick="rpsGame(this)" />
+      <img id="scissors" src="sessiors.png" alt="" height="150px" width="150px" onclick="rpsGame(this)" />
+    </div>
+
+    <div class="playagain">
+      <button class="btn btn-primary" style="background-color: purple; border-color: purple" onclick="reset()">
+        Play Again
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
