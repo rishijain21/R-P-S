@@ -1,10 +1,6 @@
 let cacheName = 'R-P-S_cache';
 let filesToCache = [
-  'index.html',
-  'style.css',
-  'js/main.js',
-  'script.js',
-  'css/bootstrap.min.css'
+  'index.html'
 ];
 
 /* Start the service worker and cache all of the app's content */
